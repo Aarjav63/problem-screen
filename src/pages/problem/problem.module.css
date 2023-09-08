@@ -1,0 +1,26 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 4rem);
+    background-color: #000100e4;
+}
+
+.editor_container{
+    width: 55%;
+    /* margin-top: 20px; */
+}
+.problem_container{
+    overflow-y: scroll;
+    height: "-webkit-fill-available";
+    width: 45%;
+    color: rgb(247, 240, 240);
+    padding: 1rem;
+    padding-bottom: 50px;
+    background-color: #000100e4;
+}
+
+.resize_bar{
+    width: 5px;
+    background-color: red;
+    cursor: col-resize;
+}

@@ -1,0 +1,13 @@
+.meta_data_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+
+}
+
+.meta_data_text {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(247, 240, 240);
+    opacity: 0.8;
+}
